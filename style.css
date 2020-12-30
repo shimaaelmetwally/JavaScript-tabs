@@ -1,0 +1,35 @@
+ 
+/*style of all site*/
+body {
+	background: #ddd;
+	font-family: Raleway;
+	margin: auto;
+	float: left;
+
+ }
+/*remove content after reload and return after press on button*/ 
+ .tabContent 
+{
+	display: none;
+
+}
+/*style of button*/
+ button {
+  	cursor: pointer;
+  	border: none;
+  	outline: none;
+  	background-color: #f2f2f2;
+  	color: gray;
+
+ } 
+/*style on hover button*/
+button:hover{
+ 	background-color: #cccccc;
+ } 
+ /*style after press on button*/
+ button:focus{
+ 	background-color: blue;
+
+ }
+  
+

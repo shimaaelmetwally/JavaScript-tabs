@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>web page</title>
+    <meta charset="utf-8">
+    <!-- link of style css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <!-- title of tabs -->
+    <h2>Tabs pill</h2>
+    
+    <!--     dive of buttons  -->   
+      <div class="tabs" >
+        	
+        	<button class="tabLink" onclick="openTab(event,'home')">Home</button>
+
+        	<button class="tabLink" onclick="openTab(event,'profile')">Profile</button>
+
+        	<button class="tabLink" onclick="openTab(event,'messages')">Messages</button>
+
+        	<button class="tabLink" onclick="openTab(event,'setting')">Setting</button>
+
+        </div>
+    <!--content of each button-->    
+        <div id="home" class="tabContent">
+        	<p>This is Home content</p>
+        </div>
+
+        <div id="profile" class="tabContent">
+        	<p>This is Profile content</p>
+        </div>
+
+        <div id="messages" class="tabContent">
+        	<p>This is Messages content</p>
+        </div>
+
+        <div id="setting" class="tabContent">
+        	<p>This is Setting content</p>
+        </div>
+        <!-- link of style java script -->
+    <script src="try.js"></script>
+</body>
+</html>
